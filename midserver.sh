@@ -11,7 +11,7 @@ sudo yum install -y amazon-linux-extras docker
 sudo service docker start
 
 # Pull and run the Juice Shop Docker container
-sudo docker run -d --name docker-2024 --env SN_HOST_NAME=dev202618.service-now.com/ --env USER_NAME=admin --env PASSWORD='g$Y*G4G5uPej' moers/mid-server:tokyo.latest
+sudo docker run -d --name docker-2024 --env SN_HOST_NAME=<urname>.service-now.com/ --env USER_NAME=admin --env PASSWORD='password' moers/mid-server:tokyo.latest
 
 
 sudo amazon-linux-extras install epel -y
